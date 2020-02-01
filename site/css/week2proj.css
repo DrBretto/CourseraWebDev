@@ -63,7 +63,7 @@ p {
     float: left;
     border: 1px solid green;
     background-color: lightgray;
-        margin-bottom: 10%
+        margin-bottom: 10px
   }
   .lg {
     width: 30%;
@@ -77,7 +77,7 @@ p {
     float: left;
     border: 1px solid green;
     background-color: lightgray;
-        margin-bottom: 10%
+        margin-bottom: 100px
   }
   .md-1 {
     width: 45%;
@@ -97,7 +97,7 @@ p {
     float: left;
     border: 1px solid green;
     background-color: lightgray;  
-    margin-bottom: 10%
+    margin-bottom: 10px
   }
   .sm {
     width: 90%;
