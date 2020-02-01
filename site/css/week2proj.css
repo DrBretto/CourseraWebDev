@@ -31,7 +31,7 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  margin: auto;
+  margin: -20px;
 }
 
 .titlebox {
