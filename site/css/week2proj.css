@@ -1,0 +1,109 @@
+<!DOCTYPE css>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Layout</title>
+<style>
+
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #152A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+.titlebox {
+  
+  text-align: center;
+  width: 30%;
+  position: relative;
+  left: 70%;
+}
+
+#t1{
+   background-color: #AA0000; 
+   color: white;
+}
+
+#t2{
+   background-color: #00AA00; 
+   color: white;
+}
+
+#t3{
+   background-color: #0000AA; 
+   color: white;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .lg {
+    float: left;
+    border: 1px solid green;
+    background-color: lightgray;
+  }
+  .lg {
+    width: 30%;
+    margin-left: 2.5%; 
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .md-1, .md-2 {
+    float: left;
+    border: 1px solid green;
+    background-color: lightgray;
+  }
+  .md-1 {
+    width: 45%;
+    margin-bottom: 1%;
+    margin-left: 3.33%;
+  }
+  .md-2 {
+    width: 93.33%;
+    margin-bottom: 1%;
+    margin-left:3.33%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 991px) {
+  .sm  {
+    float: left;
+    border: 1px solid green;
+    background-color: lightgray;  }
+  .sm {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+
+
+
+
+</style>
+</head>
